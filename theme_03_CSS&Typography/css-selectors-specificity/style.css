@@ -1,0 +1,24 @@
+#text-f {
+  color: blue;
+}
+
+.lorem {
+  font-size: 21px;
+  color: red;
+}
+
+.lorem.text-2 {
+  color: violet;
+}
+
+.unordered .ul-item {
+  color: green;
+}
+
+.ordered .ol-item {
+  color: blue;
+}
+
+/* .lorem.text-2 {
+  color: blue;
+} */
