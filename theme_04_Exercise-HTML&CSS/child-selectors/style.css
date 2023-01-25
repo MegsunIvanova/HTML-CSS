@@ -1,0 +1,30 @@
+/* Direct children */
+ul > li {
+  background-color: red;
+}
+
+/* Adjacent sibling combinator */
+.container-adjacen p + p {
+  background-color: orange;
+}
+
+.container-adjacen div + p {
+  background-color: gray;
+}
+
+.container-adjacen p + div {
+  background-color: lightgray;
+}
+
+/* General sibling combinator */
+.container-general p ~ p {
+  background-color: green;
+}
+
+.nth-example li {
+  background-color: unset;
+}
+
+.nth-example li:nth-child(3n + 1) {
+  background-color: green;
+}
