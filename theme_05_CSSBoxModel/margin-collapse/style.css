@@ -1,0 +1,15 @@
+.title {
+    background-color: orange;
+    /* margin: 40px 20px; */
+    margin: 0px;
+    /* display: inline-block; */
+}
+
+.first {
+    margin-bottom: 30px;
+}
+
+.second {
+    /* margin-top: 120px; */
+    margin-bottom: 120px;
+}
