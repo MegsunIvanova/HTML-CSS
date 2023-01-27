@@ -1,0 +1,38 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+h1,
+nav,
+nav ul,
+nav ul li {
+  display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    margin-right: 200px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: green;
+
+    margin-right: 40px;
+}
+
+h2{
+    font-family:'Times New Roman',serif;
+}
+
