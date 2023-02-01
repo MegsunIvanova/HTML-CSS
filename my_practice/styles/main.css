@@ -1,0 +1,74 @@
+body {
+  background-image: url(florian-dormann-9T2Vl2MeZfw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  color: white;
+  margin: 16px 32px;
+  vertical-align: middle;
+}
+
+.header__name,
+.header__links,
+.links__item {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.links__item a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header__name {
+  font-size: 30px;
+  padding: 2px 6px;
+  width: 40%;
+  text-align: left;
+}
+
+.header__links {
+  width: 60%;
+  text-align: right;
+}
+
+.links__item {
+  /* padding: 2px 6px; */
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links__item:not(:last-child) {
+  /* margin-right: 20px; */
+}
+
+.links__item:nth-child(4) {
+  /* margin-right: 40px; */
+}
+
+.links__item:last-child {
+  background-color: #005649;
+  border-radius: 6px;
+}
+
+main.main {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: white;
+    width: 200px;
+
+}
+
+main.main__header {
+    font-size: 20px;
+}
