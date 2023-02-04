@@ -3,12 +3,13 @@
   gap: 16px;
   grid-template-columns: repeat(6, 100px);
   grid-template-rows: repeat(6, 100px);
-  grid-template-areas: "head head head head head head"
-  "side side content content content content"
-  "side side content content content content"
-  "side side content content content content"
-  "side side content content content content"
-  "foot foot foot foot foot foot";
+  grid-template-areas:
+    "head head head head head head"
+    "side . ontent content content content"
+    "side . content content content content"
+    "side . content content content content"
+    "side . content content content content"
+    "foot foot foot foot foot foot";
 }
 
 .header {
@@ -30,7 +31,6 @@
   grid-area: foot;
   background-color: lightgreen;
 }
-
 
 /* .grid-container div {
   background-color: orange;

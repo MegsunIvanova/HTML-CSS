@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 50px;
+}
+
+body > header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header > nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-bar a {
+  vertical-align: text-top;
+}
+
+header > nav > ul > li:not(:last-child) {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 102, 0);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 2px solid gray;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  float: right;
+  font-family: Georgia, serif;
+  font-style: italic;
+  margin-top: 20px;
+  padding-left: 20px;
+  margin-left: 40px;
+  color: gray;
+}
+
+blockquote p {
+  margin-bottom: 20px;
+ 
+}
+
+blockquote p:last-child {
+  text-align: right;
+}
+
+.img-container {
+  border: 2px solid black;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25);
+  padding: 4px;
+}
+
+.stairs-img {
+  float: right;
+  margin-left: 20px;
+}
+
+.dog-img {
+  float: left;
+  margin-right: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+.left {
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+    width: calc(100% - 253.025px - 50px);
+  margin-right: 50px;
+ }
+
+.right {
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 253.025px;
+  float: right;
+}

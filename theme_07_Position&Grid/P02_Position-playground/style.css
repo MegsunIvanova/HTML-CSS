@@ -1,0 +1,37 @@
+
+@import  'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.viewport {
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.viewport:nth-child(1) {
+  background: linear-gradient(to right, #007ba7, #66dfca);
+}
+
+.viewport:nth-child(2) {
+  background: linear-gradient(to right, #c1549f, #c2791e);
+}
+
+.card {
+  display: block;
+  position: absolute;
+  /* width: 300px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 300px;
+}
+
+.card i {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
