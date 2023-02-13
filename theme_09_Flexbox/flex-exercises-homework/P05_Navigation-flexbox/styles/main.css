@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  border-bottom: 2px solid rgb(0,0,0);
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.header .site-title {
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.navigation .list {
+    display: flex;
+    gap: 12px;
+}
+
+.navigation .list a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,117 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  /* padding: 12px; */
+  border: 2px dashed black;
+}
+
+.item {
+  padding: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.item:nth-child(1) {
+  background-color: #845ec2;
+}
+.item:nth-child(2) {
+  background-color: #0081cf;
+}
+.item:nth-child(3) {
+  background-color: #d65db1;
+}
+.item:nth-child(4) {
+  background-color: #ff9671;
+}
+.item:nth-child(5) {
+  background-color: #00c9a7;
+}
+.item:nth-child(6) {
+  background-color: #c34a36;
+}
+
+/* FLEXBOX - CHILDREN*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ============================ */
+/* SHRINK */
+/* default value for flex-shrink = 1 
+ако е flex-shrink: 0, то елементите няма да се намаляват,
+т.е. flex-shrink няма да работи
+shrink контролира намаляване на елемента, 
+ако пространството е по-малко, 
+колокото е по-голяма стойността му,
+ толкова по-бързо ще се намалява елемента */
+/* .item {
+  flex-shrink: 1;
+}
+.item:nth-child(4) {
+  flex-shrink: 3;
+} */
+
+/* GROW */
+/* default value for flex-grow = 0 
+ако е flex-grow: 0, то елементите няма да се увеличават,
+т.е. flex-grow няма да работи
+
+grow контролира увеличаването на елемента ако пространството е по-голямо, 
+колокото е по-голяма стойността му,
+ толкова по-бързо ще се увеличава елемента */
+/* .item {
+  flex-grow: 0;
+}
+.item:nth-child(4) {
+  flex-grow: 1;
+} */
+
+/* ============================ */
+/* BASIS */
+/* flex-basis -> задава началния размер на елемента */
+.item:nth-child(4) {
+  flex-basis: 100px;
+  /* width: 150px; */
+  /* flex: 0 1 auto; */
+  /* flex:  is shorthand -> grow shring basis */
+}
+
+/* ============================ */
+/* ALIGN-SELF */
+/*  */
+.item:nth-child(5) {
+  align-self: stretch;
+}
+
+
+/* ============================ */
+/* ORDER */
+/* order работи само с flex,
+  използва се за да подреждаме
+  ръчно елементите, default order = 0
+  може да има и негативни стойности */
+/* .item:nth-child(1) {
+  background-color: red;
+  order: 1;
+}
+.item:nth-child(3) {
+  order: 1;
+}
+.item:nth-child(4) {
+  order: -1;
+} */

@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  padding: 2rem;
+  display: flex;
+}
+
+.gallery ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: space-between;
+}
+
+.gallery ul li {
+  padding: 1rem;
+  border: solid 6px black;
+  box-shadow: inset 0px 0px 6px 6px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  text-align: center;
+  flex-basis: 24vw;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery ul li img {
+  width: 80%;
+  object-fit: contain;
+}

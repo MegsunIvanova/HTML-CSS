@@ -1,0 +1,16 @@
+/* ============================================ */
+/* И ТРИТЕ СЕЛЕКТОРА ИЗБИРАТ ЕДНИ И СЪЩ ЕЛЕМЕНТ: */
+
+/* main div:nth-child(2) button:nth-child(4) {
+    background-color: red;
+} */
+
+/* main div:nth-child(2) *:nth-child(4) {
+  background-color: red;
+} */
+
+main div:nth-child(2) button:nth-of-type(2) {
+    background-color: red;
+}
+
+/* ============================================ */
